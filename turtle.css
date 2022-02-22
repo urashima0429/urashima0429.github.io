@@ -2,8 +2,8 @@
 	--main-color: black;
 	--content-accent-color: rgb(255, 136, 0);
 	--content-back-color: rgba(255, 255, 255, 0.76); 
-	--content-base-color: rgba(192, 235, 235, 0.829);
-	--content-main-color: rgb(78, 78, 78);
+	--content-base-color: rgba(206, 233, 233, 0.829);
+	--content-main-color: rgb(61, 55, 55);
 	--content-shadow: rgba(85, 85, 85, 0.87);
 	--main-bg-color: rgb(243, 255, 255);
 }
@@ -29,33 +29,41 @@ body {
 /* .site-title a:hover{
 	color:#007acc;
 } */
-
 .site-description{
 	font-size:20px;
 	color:#686868;
 }
+.site-icons a{
+	margin: 4px;
+}
+
+.site-content{
+	clear: both;
+}
 
 .content{
-	padding: 10px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .content-heading{
 	background-color: var(--content-main-color);
 	border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
 	box-shadow: 1px 1px 1px 1px var(--content-shadow);
 	padding: 2px;
-	margin: 2px;
+	margin: 4px;
 	font-size: 24px;
 	color: white;
 	font-weight:  bold;
 	text-align: center;
 }
-.content-container{
+/* .content-container{
 	background-color: var(--content-back-color);
 	border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
 	box-shadow: 1px 1px 1px 1px var(--content-shadow);
 	padding: 2px;
 	margin: 2px;
-}
+} */
 
 ul, ol{
 	padding: 1px;
@@ -77,3 +85,18 @@ ul li, ol li {
 }
 
 
+@media screen and (max-width: 1024px) {
+	.content {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 2048px) {
+	.content {
+		width: 49.5%;
+	}
+}
+@media screen and (min-width: 2048px) {
+	.content {
+		width: 33%;
+	}
+}
