@@ -95,8 +95,3 @@ ul li, ol li {
 		width: 49.5%;
 	}
 }
-@media screen and (min-width: 2048px) {
-	.content {
-		width: 33%;
-	}
-}
