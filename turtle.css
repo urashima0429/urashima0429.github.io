@@ -52,12 +52,12 @@ body {
 	box-shadow: 1px 1px 1px 1px var(--content-shadow);
 	padding: 2px;
 	margin: 4px;
-	font-size: 32px;
+	font-size: 28px;
 	color: white;
 	font-weight:  bold;
 	text-align: center;
 }
-/* .content-container{
+/* .item-container{
 	background-color: var(--content-back-color);
 	border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
 	box-shadow: 1px 1px 1px 1px var(--content-shadow);
@@ -69,12 +69,12 @@ ul, ol{
 	padding: 1px;
 }
 ul li, ol li {
-	border-left: solid 4px var(--content-accent-color);
 	background: var(--content-base-color);
-	margin: 6px;
 	list-style-type: none!important;
 }
 .item{
+	border-left: solid 4px var(--content-accent-color);
+	margin: 6px;
 	text-align: left;
 	font-size: 20px;
 	padding: 2px;
@@ -83,7 +83,16 @@ ul li, ol li {
 	font-size: 16px;
 	color:#686868;
 }
-
+.small-item{
+	display: inline-block;
+	border-left: solid 4px var(--content-accent-color);
+	border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
+	padding: 4px;
+	margin: 4px;
+	font-size: 24px;
+	/* font-weight:  bold; */
+	text-align: center;
+}
 
 @media screen and (max-width: 1024px) {
 	.content {
