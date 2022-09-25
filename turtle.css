@@ -42,7 +42,7 @@ body {
 }
 
 .content{
-	float: left;
+	float: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -90,8 +90,8 @@ ul li, ol li {
 		width: 100%;
 	}
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
 	.content {
 		width: 49.5%;
 	}
-}
+} */
