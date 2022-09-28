@@ -74,6 +74,7 @@ ul li, ol li {
 }
 .item{
 	border-left: solid 4px var(--content-accent-color);
+	/* border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px; */
 	margin: 6px;
 	text-align: left;
 	font-size: 20px;
@@ -86,7 +87,7 @@ ul li, ol li {
 .small-item{
 	display: inline-block;
 	border-left: solid 4px var(--content-accent-color);
-	border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
+	/* border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px; */
 	padding: 4px;
 	margin: 4px;
 	font-size: 24px;
