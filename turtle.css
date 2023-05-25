@@ -95,13 +95,40 @@ ul li, ol li {
 	text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+
+.pdf-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px; /* スライドアイテム間の余白を設定 */
+	padding: 20px;
+}
+
+.pdf-slide {
+	height: 500px;
+}
+  
+footer {
+    background-color: var(--content-main-color);
+    font-size: 24px;
+	color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
 	.content {
 		width: 100%;
 	}
-}
-/* @media screen and (min-width: 1024px) {
-	.content {
-		width: 49.5%;
+	.pdf-slide {
+		flex-basis: 96%; /* スマホの場合は1列に表示 */
 	}
-} */
+}
+
+@media screen and (min-width: 767px) {
+	.content {
+		width: 100%;
+	}
+	.pdf-slide {
+		flex-basis: 48%; /* スマホの場合は1列に表示 */
+	}
+}
