@@ -116,21 +116,23 @@ footer {
 	color: #fff;
     text-align: center;
 }
-
+.content {
+	width: 100%;
+}
 @media screen and (max-width: 767px) {
-	.content {
-		width: 100%;
-	}
 	.pdf-slide {
 		flex-basis: 96%; /* スマホの場合は1列に表示 */
 	}
 }
 
 @media screen and (min-width: 767px) {
-	.content {
-		width: 100%;
-	}
 	.pdf-slide {
-		flex-basis: 96%; /* スマホの場合は1列に表示 */
+		flex-basis:48%; /* スマホの場合は1列に表示 */
+	}
+}
+
+@media screen and (min-width: 1534px) {
+	.pdf-slide {
+		flex-basis:32%; /* スマホの場合は1列に表示 */
 	}
 }
