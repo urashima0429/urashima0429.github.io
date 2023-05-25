@@ -105,7 +105,9 @@ ul li, ol li {
 }
 
 .pdf-slide {
-	height: 500px;
+	/* height: 500px; */
+	width: 100%;
+	aspect-ratio: 16 / 10;
 }
   
 footer {
@@ -129,6 +131,6 @@ footer {
 		width: 100%;
 	}
 	.pdf-slide {
-		flex-basis: 48%; /* スマホの場合は1列に表示 */
+		flex-basis: 96%; /* スマホの場合は1列に表示 */
 	}
 }
