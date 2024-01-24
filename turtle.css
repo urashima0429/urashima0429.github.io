@@ -95,6 +95,26 @@ ul li, ol li {
 	text-align: center;
 }
 
+.tag {
+    display: inline-block;
+    padding: 2px 6px;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 0.75em;
+    text-transform: uppercase; /* 大文字で表示 */
+    color: white;
+}
+
+.international {
+    background-color: #2B593F; /* 国際会議のタグ色 */
+}
+.domestic {
+    background-color: #5A5A5A; /* 国内会議のタグ色 */
+}
+.reviewed {
+    background-color: #28456C; /* Peer-Reviewed のタグ色 */
+}
+
 
 .pdf-container {
 	display: flex;
