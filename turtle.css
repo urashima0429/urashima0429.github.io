@@ -41,6 +41,10 @@ body {
 	clear: both;
 }
 
+#note p {
+    font-size: 16px;
+}
+
 .content{
 	float: center;
 	padding-top: 10px;
