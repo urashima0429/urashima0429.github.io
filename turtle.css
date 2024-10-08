@@ -2,8 +2,8 @@
 	--main-color: black;
 	--content-accent-color: rgb(255, 136, 0);
 	--content-back-color: rgba(255, 255, 255, 0.76); 
-	--content-base-color: rgba(206, 233, 233, 0.829);
-	--content-main-color: rgb(61, 55, 55);
+	--content-base-color: rgba(213, 241, 241, 0.829);
+	--content-main-color: rgb(121, 109, 109);
 	--content-shadow: rgba(85, 85, 85, 0.87);
 	--main-bg-color: rgb(243, 255, 255);
 }
@@ -12,7 +12,7 @@
 body {
 	background-color: var(--main-bg-color);
 	color: var(--main-color);
-	font-family: Roboto,Noto Sans Japanese,Noto Sans CJK JP,源ノ角ゴシック,Source Han Sans,Hiragino Sans,Hiragino Kaku Gothic ProN,游ゴシック,YuGothic,メイリオ,Meiryo,sans-serif;
+	font-family: 'Noto Serif JP', serif;
 	font-size: 0px;
 }
 .site-header{
@@ -20,7 +20,6 @@ body {
 }
 .site-title a{
 	text-align: center;
-	font-family:Georgia;
 	font-size:64px;
 	font-weight: bold;
 	color:#1a1a1a;
@@ -47,18 +46,13 @@ body {
 
 .content{
 	float: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 .content-heading{
 	background-color: var(--content-main-color);
 	border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
 	box-shadow: 1px 1px 1px 1px var(--content-shadow);
-	padding: 2px;
-	margin: 4px;
 	font-size: 28px;
 	color: white;
-	font-weight:  bold;
 	text-align: center;
 }
 /* .item-container{
@@ -117,6 +111,9 @@ ul li, ol li {
 }
 .reviewed {
     background-color: #28456C; /* Peer-Reviewed のタグ色 */
+}
+.poster {
+	background-color: #5a6800; /* ポスター発表のタグ色 */
 }
 
 
